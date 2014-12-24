@@ -3,12 +3,12 @@ Resources
 **[Source control](#SRC) , [Numerical linear algebra](#LA)**
 
 
-## <a href="#SRC"></a>Source control
+## <a id='SRC'></a>Source control
 * [Curated Git links (2014)](http://thelinell.com/2014/12/23/curated-git-links-of-2014/) containing many pointers to useful resources. In particular I recommend to start by reading [the introductory post](http://thelinell.com/2014/03/19/git/) entitlesd **how does Git work**
 * I use [GitHub](https://github.com/) to store my pubic repositories.
 * 
 
-## <a href="#SRC">Numerical linear algebra</a> 
+##  <a id='LA'></a> Numerical linear algebra
 Linear algebra is a central infrastructure driving scientific computation in general and more specifically data science and machine learning solutions. 
 
 ### Books
