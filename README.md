@@ -13,6 +13,13 @@ Resources
 
 It is possible to share public notebooks using a [notebooks viewer service](http://nbviewer.ipython.org/) which renders the notebook as a static HTML file tat can be displayed to any client with a browser. A growing collections of [interesting notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks) cover many interesting topics. The notebook viewer is particularly useful to view public notebooks stored in GitHub. You can make a connection to the notebooks managed by GitHub and the most recent version will be displayed in the notebook viewer. This allows any client with a browser to view your notebooks.
 
+In most cases storing IPython notebooks within a version control like Git works well. The [problem is](http://stackoverflow.com/questions/18734739/using-ipython-notebooks-under-version-control?rq=1) that sometimes the standard notebook file (with the extension **.ipynb**) contains also the output of computational procedures such as, for example,  plotting or images displayed. Those are reresented as binary blobs that may occupy a lot of space. The problem and some remedies are discussed [in this StackOverflow discussion](http://stackoverflow.com/questions/18734739/using-ipython-notebooks-under-version-control?rq=1)
+
+**Some relevant notebooks**
+* [Using Git](http://nbviewer.ipython.org/github/demotu/BMC/blob/master/notebooks/VersionControlGitGitHub.ipynb)
+* [Notebook tricks for scientific computing](http://nbviewer.ipython.org/github/NelisW/ComputationalRadiometry/blob/master/01-IPythonHintsAndTips.ipynb)
+
+
 ##  <a id='LA'></a> Numerical linear algebra
 Linear algebra is a central infrastructure driving scientific computation in general and more specifically data science and machine learning solutions. 
 
