@@ -1,12 +1,36 @@
 Resources
 =========
-**[Source control](#SRC) , [IPython notebooks](#IPythonNotebook), [Numerical linear algebra](#LA)**
+**[Source control](#SRC) , [Languages and development tools](#LangIDEs), [IPython notebooks](#IPythonNotebook), [Numerical linear algebra](#LA)**
 
 
 ## <a id='SRC'></a>Source control
 * I use [Git](http://git-scm.com/). Get started by browsing the [documentations](http://git-scm.com/doc). Also take a look at the [Curated Git links (2014)](http://thelinell.com/2014/12/23/curated-git-links-of-2014/) containing many pointers to useful resources. In particular I recommend to start by the  [how does Git work?](http://thelinell.com/2014/03/19/git/) post.
 * I use [GitHub](https://github.com/) to store my pubic repositories.
 * 
+
+## <a id='LangIDEs'></a>Languages and development tools that I use
+
+#### [C/C++](http://en.wikipedia.org/wiki/C%2B%2B)
+* IDE, text editor, compiler: 
+  * Windows - I usd [Visual Studio](http://www.visualstudio.com/en-us/products/free-developer-offers-vs.aspx#) which can be used free of charge for a single developer or a small team
+  * Linux - I use the [gcc](https://gcc.gnu.org/) compiler
+* Build language: I use [CMake](http://www.cmake.org/)
+
+
+#### [R](http://www.r-project.org/)
+R is the main statistical language with more than 5000 packages spanning nearly any topic in statistical computation. [RStudio](http://www.rstudio.com/) is the preferred IDE/text editor for the R language.
+ 
+
+#### [Python](https://www.python.org/)
+* The [Anaconda](https://store.continuum.io/cshop/anaconda/) distribution contains most of the packages needed for scientific computation. Uses the [conda](http://conda.pydata.org/docs/)  package manager. 
+* Text editors/IDE
+ * [Spyder](https://code.google.com/p/spyderlib/) is the Scientific PYthon Development EnviRonment -  Provided in the Anaconda distribution  
+ * [SubLime Text](http://www.sublimetext.com/]) is a text editor for coding with syntax highlighting for many languages. Can be extended with plugins to be a descent substitution for a full fledged IDE, see Nathan Lemoine's post [My Ideal Python Setup for Statistical Computing](https://climateecology.wordpress.com/2014/11/26/my-ideal-python-setup-for-statistical-computing/) for ideas on how to turn SubLIme Text into a Python IDE
+ * For fast prototyping and exploration I use [IPYthon notebook](#IPythonNotebook)
+
+#### [Julia](http://julialang.org/)
+THe Julia language is a relativly new language with the promise of the simplicity of Python and the performance of C/C++. This language is developing very fast and is worth of tracking. I use the IPYthon notebook based [IJulia](https://github.com/JuliaLang/IJulia.jl) environment for playing with the language.
+
 
 ## <a id='IPythonNotebook'></a>IPython notebook
 [IPython notebooks](http://ipython.org/notebook.html) are a great for scientific exploration and for documentation of the work done. The IPython notebook allows mixing rich text with code sniplets. The text is written in a [markdown syntax](http://daringfireball.net/projects/markdown/) and HTML to produce a quite rich text format. IPython notebook uses [MathJax](http://www.mathjax.org/) to properly format mathematical formulas provided in [LaTeX](http://www.latex-project.org/) syntax. The official development environment supported by the notebook is [IPython](http://ipython.org/) which is focused on the [Python](https://www.python.org/) language. The flexible architecture of the IPython notebooks allows adding more languages such as [Julia](https://github.com/JuliaLang/IJulia.jl), [R](http://rpy.sourceforge.net/rpy2/doc-2.4/html/interactive.html#module-rpy2.ipython.rmagic) and others.
