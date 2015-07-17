@@ -1,0 +1,13 @@
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[user]
+	name = Shmuel Rippa
+	email = srippa@gmail.com
+[color]
+    ui = true
+[color "status"]
+    changed   = red bold
+    untracked = yellow bold
+    added     = green bold
